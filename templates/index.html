@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flight Delay Predictor</title>
+</head>
+<body>
+    <h1>Check if your flight will be delayed</h1>
+    <form action="/predict" method="post">
+        <label for="temperature">Temperature:</label>
+        <input type="text" id="temperature" name="temperature"><br><br>
+        <label for="precipitation">Precipitation:</label>
+        <input type="text" id="precipitation" name="precipitation"><br><br>
+        <label for="pressure">Pressure:</label>
+        <input type="text" id="pressure" name="pressure"><br><br>
+        <label for="visibility">Visibility:</label>
+        <input type="text" id="visibility" name="visibility"><br><br>
+        <label for="windspeed">Wind Speed:</label>
+        <input type="text" id="windspeed" name="windspeed"><br><br>
+        <input type="submit" value="Predict Delay">
+    </form>
+</body>
+</html>
